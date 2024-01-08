@@ -30,7 +30,7 @@ function Login() {
       };
 
       const response = await axios.post(
-        "http://localhost:8080/user/login/",
+        "https://server-chat-0pff.onrender.com//user/login/",
         data,
         config
       );
@@ -58,7 +58,7 @@ function Login() {
       };
 
       const response = await axios.post(
-        "http://127.0.0.1:8080/user/register/",
+        "https://server-chat-0pff.onrender.com//register/",
         data,
         config
       );
